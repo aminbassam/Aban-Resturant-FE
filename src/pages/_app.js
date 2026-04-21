@@ -1,10 +1,18 @@
 import "@/styles/globals.css";
 import Head from "next/head";
 import Script from "next/script";
+import { Lato } from "next/font/google";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "700", "900"],
+  style: ["normal", "italic"],
+  display: "swap",
+});
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
+    <div className={lato.className}>
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,6 +39,6 @@ export default function App({ Component, pageProps }) {
         `}
       </Script>
       <Component {...pageProps} />
-    </>
+    </div>
   );
 }
