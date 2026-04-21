@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.aban-restaurant.com/
+
+# Sitemaps
+Sitemap: https://www.aban-restaurant.com/sitemap.xml

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: "Lato" , serif;
+}
+
+
+.react-time-picker {
+  display: block;
+  width: 100%;
+}
+
+.react-time-picker__wrapper {
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 0.75rem; /* p-3 */
+  background-color: #fff; /* bg-white */
+  transition: all 0.2s ease-in-out;
+}
+
+.react-time-picker__wrapper:focus-within {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border-color: #C34D23; /* ring-2 ring-[#C34D23] */
+  box-shadow: 0 0 0 2px #C34D23;
+}
+
+.react-time-picker__inputGroup {
+  display: flex;
+  align-items: center;
+}
+
+.react-time-picker__inputGroup > input {
+  padding: 0 !important; /* Remove default padding */
+  border: none !important;
+  background: transparent !important;
+  color: #1f2937 !important; /* text-gray-800 */
+  font-size: 1rem !important;
+  outline: none !important;
+  flex-grow: 1;
+}
+
+.react-time-picker__inputGroup > input:placeholder {
+  color: #9ca3af; /* placeholder-gray-400 */
+}
+
+/* Hide the clock icon */
+.react-time-picker__clock-button {
+  display: none;
+}
+
+/* Adjust the clear icon */
+.react-time-picker__clear-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  color: #9ca3af;
+}
+
+/* Adjust the arrow up/down */
+.react-time-picker__inputGroup__divider {
+  color: #d1d5db;
+  padding: 0 0.25rem;
+}
+
+.react-time-picker__inputGroup__leading {
+  /* No special styles needed */
+}
+
+.react-time-picker__inputGroup__trailing {
+  /* No special styles needed */
+}
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+
+.desc_details h1,
+.desc_details h2,
+.desc_details h3,
+.desc_details h4,
+.desc_details h5,
+.desc_details h6 {
+  font-weight: bold;
+   margin-top: 15px;
+}
+
+
+
+
+.desc_details p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.desc_details a{
+   color: blue;
+   text-decoration: underline;
+}
+
+
+.desc_details blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.desc_details blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.desc_details blockquote p {
+  display: inline;
+}
+
+
+.desc_details h1{
+    font-size: 32px;
+}
+.desc_details h2{
+    font-size: 26px;
+}
+.desc_details h3{
+    font-size: 24px;
+}
+.desc_details h4{
+    font-size: 22px;
+}
