@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Geist_Mono } from "next/font/google";
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import EventCard from "@/components/EventCard";
@@ -9,8 +8,6 @@ import EventsDesc from "@/components/EventsDesc";
 import CallToActionEvents from "@/components/CallToActionAbout";
 import { httpReauest } from "@/utils/httpRequest";
 import Head from "next/head";
-
-const geistMono = Geist_Mono({ subsets: ["latin"] });
 
 // Framer Motion variants for animations
 const heroVariants = {
