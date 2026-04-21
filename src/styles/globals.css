@@ -41,7 +41,7 @@ body {
   flex-grow: 1;
 }
 
-.react-time-picker__inputGroup > input:placeholder {
+.react-time-picker__inputGroup > input::placeholder {
   color: #9ca3af; /* placeholder-gray-400 */
 }
 
