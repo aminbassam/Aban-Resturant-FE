@@ -7,7 +7,6 @@ import {
   FaFish,
   FaUsers,
   FaSmoking,
-  FaSun,
 } from "react-icons/fa";
 import { GiRiceCooker } from "react-icons/gi";
 import { MdSoupKitchen } from "react-icons/md";
@@ -594,62 +593,6 @@ export const menuData = [
         image: "/menu/2341421.jpg",
         description: "Refill for orange head",
         link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-refell-orange-head_d52d18f4-6089-4648-8a39-8f62db090eb7",
-      },
-    ],
-  },
-  {
-    id: "lunch",
-    name: "Lunch Menu",
-    icon: <FaSun size={20} />,
-    items: [
-      {
-        name: "Beef Koobideh",
-        price: 11,
-        image: "/menu/beef-koobideh-lunch.jpg",
-        description: "Lunch special (Mon–Thu, 11:00 AM–3:00 PM)",
-        link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-beef-koobideh-lunch_1f5a9677-c53c-491b-8cbd-2d99184bfa98",
-      },
-      {
-        name: "Chicken Koobideh",
-        price: 10,
-        image: "/menu/chicken-koobideh-lunch.jpg",
-        description: "Lunch special (Mon–Thu, 11:00 AM–3:00 PM)",
-        link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-chicken-koobideh-lunch_ce06c44f-8381-4f2c-bb03-a41f23574c56",
-      },
-      {
-        name: "Chicken Boneless",
-        price: 12,
-        image: "/menu/chicken-boneless-lunch.jpg",
-        description: "Lunch special (Mon–Thu, 11:00 AM–3:00 PM)",
-        link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-chicken-boneless-lunch_47e584d5-ba77-40b9-bf0c-b2aad14ce56c",
-      },
-      {
-        name: "Ghormeh Sabzi",
-        price: 10,
-        image: "/menu/ghorme-sabzi-lunch.jpg",
-        description: "Lunch special (Mon–Thu, 11:00 AM–3:00 PM)",
-        link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-ghorme-sabzi-lunch_b7d51118-5ec3-4a56-9c82-1fc38314d6cd",
-      },
-      {
-        name: "Gheimeh",
-        price: 10,
-        image: "/menu/gheime-lunch.jpg",
-        description: "Lunch special (Mon–Thu, 11:00 AM–3:00 PM)",
-        link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-gheymeh-lunch_fef837c3-fcd6-4a2d-812a-29bec9ac5188",
-      },
-      {
-        name: "Soup (Cup)",
-        price: 4,
-        image: "/menu/Daily_Soup_1.jpg",
-        description: "Lunch soup (cup) (Mon–Thu, 11:00 AM–3:00 PM)",
-        link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-soupcuplunch_f80b4e8a-5d9f-4425-bb19-b39c8a7c004d",
-      },
-      {
-        name: "Salad",
-        price: 4,
-        image: "/menu/salad-lunch.jpg",
-        description: "Lunch salad (Mon–Thu, 11:00 AM–3:00 PM)",
-        link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-salad-lunch_f60564e1-94e7-4346-be77-c49e9f4e801b",
       },
     ],
   },
