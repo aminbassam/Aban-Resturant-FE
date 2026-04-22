@@ -193,7 +193,7 @@ export const menuData = [
       {
         name: "Zereshk Polo",
         price: 6.95,
-        image: "/menu/Zereshk_Polo_Chicken_1.jpg",
+        image: "/menu/Zereshk_Polo_1.jpg",
         description: "Rice with dried barberries",
         link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-zereshk-rice_892aae50-6995-442d-a3dc-cb68ad3fb7ef",
       },
@@ -313,7 +313,7 @@ export const menuData = [
       {
         name: "Zereshk Polo with Chicken",
         price: 18.95,
-        image: "/menu/Zereshk_Polo_1.jpg",
+        image: "/menu/Zereshk_Polo_Chicken_1.jpg",
         description: "Half chicken served over barberry rice with saffron.",
         link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-zereshk-polo-with-chicken_a53ee747-fc7f-447b-aa37-d63214daf610",
       },
