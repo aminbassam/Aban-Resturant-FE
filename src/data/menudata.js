@@ -7,6 +7,7 @@ import {
   FaFish,
   FaUsers,
   FaSmoking,
+  FaPizzaSlice,
 } from "react-icons/fa";
 import { GiRiceCooker } from "react-icons/gi";
 import { MdSoupKitchen } from "react-icons/md";
@@ -192,7 +193,7 @@ export const menuData = [
       {
         name: "Zereshk Polo",
         price: 6.95,
-        image: "/menu/Zereshk_Polo_1.jpg",
+        image: "/menu/Zereshk_Polo_Chicken_1.jpg",
         description: "Rice with dried barberries",
         link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-zereshk-rice_892aae50-6995-442d-a3dc-cb68ad3fb7ef",
       },
@@ -209,6 +210,34 @@ export const menuData = [
         image: "/menu/bread.jpg",
         description: "Fresh bread",
         link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-bread_f630392a-fc63-4ffd-9e99-7fa1606ffe89",
+      },
+    ],
+  },
+  {
+    id: "pizzas",
+    name: "Pizzas",
+    icon: <FaPizzaSlice size={20} />,
+    items: [
+      {
+        name: "Cheese Pizza",
+        price: 16.95,
+        image: "/menu/Pizza_Cheese_1.jpg",
+        description: "Classic tomato sauce with melted mozzarella cheese.",
+        link: TOAST_MENU_URL,
+      },
+      {
+        name: "Vegetarian Pizza",
+        price: 17.95,
+        image: "/menu/Pizza_Vegetarian_1.jpg",
+        description: "Fresh mushrooms, bell peppers, black olives, and mozzarella.",
+        link: TOAST_MENU_URL,
+      },
+      {
+        name: "Aban Pizza",
+        price: 23.95,
+        image: "/menu/Pizza_Aban_1.jpg",
+        description: "Aban's signature pizza loaded with premium toppings.",
+        link: TOAST_MENU_URL,
       },
     ],
   },
@@ -322,7 +351,7 @@ export const menuData = [
       {
         name: "Kaleh Pacheh",
         price: 18.95,
-        image: "/menu/dizi.jpg",
+        image: "/menu/Kaleh_Pacheh_1.jpg",
         description:
           "Traditional slow-simmered head and trotter soup available on Sundays only.",
         link: TOAST_MENU_URL,
@@ -368,7 +397,7 @@ export const menuData = [
       {
         name: "Lamb Shoulder",
         price: 99.95,
-        image: "/menu/AbanPersianRestaurant_LambShank.jpg",
+        image: "/menu/Lamb_Shoulder_1.jpg",
         description:
           "Slow-cooked lamb shoulder platter built for sharing with rice and traditional sides.",
         link: TOAST_MENU_URL,
@@ -429,7 +458,7 @@ export const menuData = [
       {
         name: "Fruit Plate",
         price: 14.95,
-        image: "/menu/79449.jpg",
+        image: "/menu/Fruit_Plate_1.jpg",
         description: "Assorted fresh fruit",
         link: "https://order.toasttab.com/online/aban restaurant -9527-westheimer-rd-bavbn/item-fruit-plates_17e8b4c0-3cef-4537-9a17-c4844aab1981",
       },

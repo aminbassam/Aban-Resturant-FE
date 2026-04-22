@@ -12,6 +12,7 @@ import {
   FaFish,
   FaUsers,
   FaSmoking,
+  FaPizzaSlice,
 } from "react-icons/fa";
 import { GiRiceCooker } from "react-icons/gi";
 import { MdSoupKitchen } from "react-icons/md";
@@ -30,6 +31,7 @@ const ICONS_BY_CATEGORY_ID = {
   "family-plates": <FaUsers size={20} />,
   desserts: <FaIceCream size={20} />,
   drinks: <BiSolidDrink size={20} />,
+  pizzas: <FaPizzaSlice size={20} />,
   hookah: <FaSmoking size={20} />,
 };
 
