@@ -51,9 +51,9 @@ export default function About({ menuData }) {
   };
   return (
     <Layout
-      title="Menu"
+      title="Aban Persian Restaurant Menu | Taste of Persian Cuisine"
       description={
-        "Experience authentic Persian flavors in Houston. Enjoy kebabs, stews, and saffron rice, all made with care and tradition."
+        "Aban Persian Restaurant Menu: Enjoy delicious meals and the best Persian & chicken kabobs in Houston, your perfect choice for authentic Persian dishes."
       }
     >
       <Head>

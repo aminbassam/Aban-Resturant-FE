@@ -51,7 +51,7 @@ export default function Events({ data }) {
 
   return (
     <Layout
-      title="Events | Our Restaurant"
+      title="Events | Celebrate with Authentic Persian Cuisine"
       description={
         "Host your next event at Aban Persian Restaurant in Houston. Enjoy authentic cuisine, warm hospitality, and a vibrant setting for unforgettable celebrations."
       }

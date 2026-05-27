@@ -174,8 +174,8 @@ export default function Catering() {
 
   return (
     <Layout
-      title="Catering"
-      description={"Bring the Taste of Persia to Your Next Event"}
+      title="Persian Food Catering Houston | Halal Persian Food"
+      description={"Persian Food Catering in Houston offers authentic, delicious Halal Persian cuisine. Trust us to bring bold flavors and unforgettable dining to events."}
     >
       <Head>
         <link rel="canonical" href="https://www.aban-restaurant.com/catering" />

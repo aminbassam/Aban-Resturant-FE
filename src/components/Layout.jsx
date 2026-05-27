@@ -4,10 +4,10 @@ import Footer from "./Footer";
 import Script from "next/script";
 
 const Layout = ({ children, title, description, noHead }) => {
-  const pageTitle = title ? `${title} | Aban Restaurant` : "Aban Restaurant";
+  const pageTitle = title || "Aban Restaurant";
   const pageDescription =
     description ||
-    "Experience the best culinary delights at Aban Restaurant. Explore our menu, find our location, and book a table with us.";
+    "Searching for Persian Restaurant Houston? Aban offers authentic Persian cuisine, Middle Eastern & Mediterranean food, and the best Halal experience.";
 
   return (
     <>

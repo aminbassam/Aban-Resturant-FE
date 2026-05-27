@@ -140,8 +140,8 @@ export default function Reservation() {
 
   return (
     <Layout
-      title="Reservation"
-      description={"Reserve your spot for an unforgettable dining experience."}
+      title="Book a Table | Aban Persian Restaurant Houston"
+      description={"Book your reservation at Aban Persian Restaurant in Houston and experience authentic Persian cuisine, warm hospitality, and truly unforgettable flavors."}
     >
       <Head>
         <link

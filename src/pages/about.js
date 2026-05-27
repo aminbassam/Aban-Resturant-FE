@@ -24,9 +24,9 @@ export default function Home() {
   };
   return (
     <Layout
-      title="About"
+      title="About Us | Fine Persian Dining Experience"
       description={
-        "At Aban Persian Restaurant in Houston, every meal is an experience—bringing the rich traditions of Persian cuisine to life through history, culture, and passion."
+        "Every meal at Aban Persian Restaurant in Houston is thoughtfully prepared to reflect the authentic traditions, culture, and flavors of Persian cuisine."
       }
     >
       <Head>

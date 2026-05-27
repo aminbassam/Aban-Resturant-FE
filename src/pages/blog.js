@@ -78,9 +78,9 @@ export default function Blog({ data }) {
   return (
     <>
       <Layout
-        title="Blog"
+        title="Aban Blogs | Explore Persian Food & Culinary Heritage"
         description={
-          "Stay up to date with the latest news, articles, and stories from our kitchen."
+          "Explore the Aban Persian Restaurant blog for insights into authentic Persian cuisine, culture, dining experiences, and culinary traditions from Houston."
         }
       >
         <Head>

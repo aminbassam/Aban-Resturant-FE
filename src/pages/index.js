@@ -169,7 +169,7 @@ const localBusinessJsonLd = {
 
 export default function Home({ data }) {
   return (
-    <Layout title="Home | Our Restaurant">
+    <Layout title="Persian Restaurant Houston | Top Mediterranean Restaurants" description="Searching for Persian Restaurant Houston? Aban offers authentic Persian cuisine, Middle Eastern & Mediterranean food, and the best Halal experience.">
       <Head>
         <script
           type="application/ld+json"
