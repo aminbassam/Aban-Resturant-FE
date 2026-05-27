@@ -225,7 +225,7 @@ export default function Catering() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            Catering with Aban Persian Restaurant in Houston
+            Persian Food Catering Houston TX – Halal Persian Catering
           </motion.h1>
           <motion.p
             className="text-lg md:text-xl max-w-2xl mx-auto"
