@@ -83,7 +83,7 @@ const Hero = () => {
           <Link
             target="_blank"
             rel="noreferrer"
-            href="https://order.toasttab.com/online/aban%20restaurant%20-9527-westheimer-rd-bavbn"
+            href="https://order.toasttab.com/online/aban-restaurant"
             className="bg-white text-[#C34D23] font-bold py-3 px-6 rounded-full transition-colors duration-300 hover:bg-gray-100"
           >
             Order Online

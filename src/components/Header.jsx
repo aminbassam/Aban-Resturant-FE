@@ -272,7 +272,7 @@ const Header = () => {
           >
             <Link
               target="_blank"
-              href="https://order.toasttab.com/online/aban%20restaurant%20-9527-westheimer-rd-bavbn"
+              href="https://order.toasttab.com/online/aban-restaurant"
               className={orderButtonClass}
               rel="noreferrer"
             >
@@ -378,7 +378,7 @@ const Header = () => {
             >
               <Link
                 target="_blank"
-                href="https://order.toasttab.com/online/aban%20restaurant%20-9527-westheimer-rd-bavbn"
+                href="https://order.toasttab.com/online/aban-restaurant"
                 rel="noreferrer"
                 className="w-16 h-16 rounded-full flex flex-col items-center justify-center text-white bg-gradient-to-r from-[#F69837] to-[#C34D23] shadow-lg"
               >
