@@ -12,7 +12,6 @@ import CallToAction from "@/components/CallToAction";
 import { httpReauest } from "@/utils/httpRequest";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import SeoGuideContent from "@/components/SeoGuideContent";
 const ScrollImages = dynamic(() => import("@/components/ScrollImages"), {
   ssr: false,
 });
@@ -202,7 +201,6 @@ export default function Home({ data }) {
       <UpComingEvents data={data} />
       <Testimonials />
       <FAQ faqs={faqs} />
-      <SeoGuideContent />
       <CallToAction />
     </Layout>
   );
