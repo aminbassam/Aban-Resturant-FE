@@ -58,7 +58,7 @@ export default function CallToAction() {
             Reserve Now
           </Link>
           <Link
-            href="https://order.toasttab.com/online/aban%20restaurant%20-9527-westheimer-rd-bavbn"
+            href="https://order.toasttab.com/online/aban-restaurant"
             target="_blank"
             rel="noreferrer"
             className="bg-white text-[#C34D23] font-bold py-3 px-6 rounded-full transition-colors duration-300 hover:bg-gray-100"
