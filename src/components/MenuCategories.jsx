@@ -186,10 +186,20 @@ const MenuDisplay = ({ menuData }) => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-3xl font-bold text-gray-800 mb-6 pb-2"
+                className="text-3xl font-bold text-gray-800 mb-1 pb-2"
               >
                 {cat.name}
               </motion.h2>
+              {cat.id === "family-plates" && (
+                <motion.p
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  className="text-sm text-gray-500 italic mb-6"
+                >
+                  (All Dishes Served With White Rice and Grilled Tomato)
+                </motion.p>
+              )}
               <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {cat.items.map((item, index) => {
                   const anchorId = slugify(item.name);

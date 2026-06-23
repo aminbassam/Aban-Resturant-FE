@@ -404,17 +404,9 @@ export const menuData = [
       {
         name: "Mix Grill Family Platter",
         price: 110,
-        image: "/menu/Mix_Grill_(3–4 People).jpg",
+        image: "/menu/Mix_Grill_Family_Platter.jpg",
         description:
-          "Two skewers of koobideh, two skewers of chicken boneless, and one skewer of barg served with dill rice or white rice.",
-        link: "https://order.toasttab.com/online/aban-restaurant",
-      },
-      {
-        name: "Aban Platter (6–8 People)",
-        price: 160,
-        image: "/menu/Aban_Platter_(6–8 People).jpg",
-        description:
-          "Two skewers of koobideh, two skewers of chicken boneless, one skewer chicken with bone, one skewer of barg, one skewer of chenjeh; served with dill rice, white rice, barberry rice",
+          "Three Skewer Ground Beef, One Skewer Beef Chenjeh, Two Boneless Chicken, Two Chicken Koobideh & One Order of Lamb Chops.",
         link: "https://order.toasttab.com/online/aban-restaurant",
       },
     ],
