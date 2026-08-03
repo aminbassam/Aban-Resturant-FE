@@ -213,34 +213,6 @@ export const menuData = [
     ],
   },
   {
-    id: "pizzas",
-    name: "Pizzas",
-    icon: <FaPizzaSlice size={20} />,
-    items: [
-      {
-        name: "Cheese Pizza",
-        price: 16.95,
-        image: "/menu/Pizza_Cheese_1.jpg",
-        description: "Classic tomato sauce with melted mozzarella cheese.",
-        link: TOAST_MENU_URL,
-      },
-      {
-        name: "Vegetarian Pizza",
-        price: 17.95,
-        image: "/menu/Pizza_Vegetarian_1.jpg",
-        description: "Fresh mushrooms, bell peppers, black olives, and mozzarella.",
-        link: TOAST_MENU_URL,
-      },
-      {
-        name: "Aban Pizza",
-        price: 23.95,
-        image: "/menu/Pizza_Aban_1.jpg",
-        description: "Aban's signature pizza loaded with premium toppings.",
-        link: TOAST_MENU_URL,
-      },
-    ],
-  },
-  {
     id: "entrees",
     name: "Entrees",
     icon: <FaDrumstickBite size={20} />,
@@ -408,6 +380,34 @@ export const menuData = [
         description:
           "Three Skewer Ground Beef, One Skewer Beef Chenjeh, Two Boneless Chicken, Two Chicken Koobideh & One Order of Lamb Chops.",
         link: "https://order.toasttab.com/online/aban-restaurant",
+      },
+    ],
+  },
+  {
+    id: "pizzas",
+    name: "Pizzas",
+    icon: <FaPizzaSlice size={20} />,
+    items: [
+      {
+        name: "Cheese Pizza",
+        price: 16.95,
+        image: "/menu/Pizza_Cheese_1.jpg",
+        description: "Classic tomato sauce with melted mozzarella cheese.",
+        link: TOAST_MENU_URL,
+      },
+      {
+        name: "Vegetarian Pizza",
+        price: 17.95,
+        image: "/menu/Pizza_Vegetarian_1.jpg",
+        description: "Fresh mushrooms, bell peppers, black olives, and mozzarella.",
+        link: TOAST_MENU_URL,
+      },
+      {
+        name: "Aban Pizza",
+        price: 23.95,
+        image: "/menu/Pizza_Aban_1.jpg",
+        description: "Aban's signature pizza loaded with premium toppings.",
+        link: TOAST_MENU_URL,
       },
     ],
   },
